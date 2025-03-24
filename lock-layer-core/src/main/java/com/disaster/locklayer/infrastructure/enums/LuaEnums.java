@@ -20,7 +20,7 @@ public enum LuaEnums {
             "end");
     private String luaStr;
 
-    LuaEnums(String luaStr) {
+    LuaEnums(String luaStr)  {
         this.luaStr = luaStr;
     }
 

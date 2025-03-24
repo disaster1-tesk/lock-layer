@@ -1,5 +1,9 @@
 package com.disaster.locklayer.infrastructure.enums;
-
+/**
+* LuaEnums
+* @author disaster
+* @since 1.0
+**/
 public enum LuaEnums {
     LOCK("if redis.call('setnx',KEYS[1],ARGV[1]) == 1\n" +
             "then\n" +
